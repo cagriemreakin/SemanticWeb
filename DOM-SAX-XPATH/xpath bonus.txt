@@ -1,0 +1,17 @@
+Q1)     /shop/customer_info/customer[*]/cust_name[@name="Lars Ulrich"]/purchase_order_num/items
+
+Q2) 	/shop/customer_info[1]/customer[*]/cust_name[*]/purchase_order_num[@pun="5xyz"]/items[1]/item[*]
+
+Q3)    if(/shop/customer_info[1]/customer[1]/cust_name[1]/delivery_addr[1]/area_code[1]=/shop/customer_info[1]/customer[3]/cust_name[1]/delivery_addr[1]/area_code[1])
+		then
+        ( /shop/customer_info[1]/customer[1]/cust_name[1]/purchase_order_num[1]/items[1],
+          /shop/customer_info[1]/customer[3]/cust_name[1]/purchase_order_num[1]/items[1]
+        )
+     else 'nothing can be found'
+Q4)
+   if(/shop/customer_info[1]/customer[*]/cust_name[*]/purchase_order_num[*]/items[1]/item[*]/@in='2')
+		then
+			/shop/customer_info/customer[*]/cust_name[*]
+	else 'no item is ordered'
+Q5)
+	

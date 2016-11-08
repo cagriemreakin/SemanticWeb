@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-16"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="shop" type="shopType" />
+  <xsd:complexType name="shopType">
+    <xsd:sequence>
+      <xsd:element name="customer_info" type="customer_infoType" />
+    </xsd:sequence>
+    <xsd:attribute name="xsi:noNamespaceSchemaLocation" type="xsd:string" />
+  </xsd:complexType>
+  <xsd:complexType name="customer_infoType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="customer" type="customerType" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="customerType">
+    <xsd:sequence>
+      <xsd:element name="cust_name" type="cust_nameType" />
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:int" />
+  </xsd:complexType>
+  <xsd:complexType name="cust_nameType">
+    <xsd:sequence>
+      <xsd:element name="delivery_addr" type="delivery_addrType" />
+      <xsd:element name="contact_num" type="xsd:int" />
+      <xsd:element name="purchase_order_num" type="purchase_order_numType" />
+    </xsd:sequence>
+    <xsd:attribute name="name" type="xsd:string" />
+  </xsd:complexType>
+  <xsd:complexType name="purchase_order_numType">
+    <xsd:sequence>
+      <xsd:element name="items" type="itemsType" />
+    </xsd:sequence>
+    <xsd:attribute name="name" type="xsd:string" />
+    <xsd:attribute name="pun" type="xsd:string" />
+  </xsd:complexType>
+  <xsd:complexType name="itemsType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="item" type="itemType" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="itemType">
+    <xsd:sequence>
+      <xsd:element name="item_descr" type="xsd:string" />
+      <xsd:element name="quantity" type="xsd:int" />
+    </xsd:sequence>
+    <xsd:attribute name="in" type="xsd:int" />
+  </xsd:complexType>
+  <xsd:complexType name="delivery_addrType">
+    <xsd:sequence>
+      <xsd:element name="area_code" type="xsd:int" />
+    </xsd:sequence>
+    <xsd:attribute name="da" type="xsd:string" />
+  </xsd:complexType>
+</xsd:schema>
