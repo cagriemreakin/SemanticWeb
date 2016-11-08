@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='us-ascii'?> 
+
+<shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="shop.xsd">
+
+<customer_info>
+
+	<customer id="1">
+
+	<cust_name name="Lars Ulrich">
+
+	<delivery_addr da="cyprus">
+
+		<area_code>187</area_code>
+
+	</delivery_addr>
+
+	<contact_num>123456789</contact_num>
+
+	<purchase_order_num name="purchase" pun="5xyz">hello
+
+		<items> 
+
+			<item in="1">
+				
+				<item_descr>Gift Box</item_descr>
+
+				<quantity>5</quantity>
+			</item>
+			<item in="2">
+				<item_descr>Toy Box</item_descr>
+
+				<quantity>7</quantity>
+			</item>
+
+
+		</items>
+
+	</purchase_order_num>
+  
+  	</cust_name>
+
+   </customer>
+
+   <customer id="2">
+
+	<cust_name name="James Hetfield">
+
+	<delivery_addr da="cyprus">
+
+		<area_code>187</area_code>
+
+	</delivery_addr>
+
+	<contact_num>123456789</contact_num>
+
+	<purchase_order_num pun="5tzi">
+
+		<items> 
+
+			<item in="3">
+				
+				<item_descr>X Box</item_descr>
+
+				<quantity>5</quantity>
+			</item>
+
+			<item in="2">
+				<item_descr>Toy Box</item_descr>
+
+				<quantity>7</quantity>
+
+			</item>
+
+		</items>
+
+	</purchase_order_num>
+  </cust_name>
+   </customer>
+   
+   <customer id="3">
+
+	<cust_name name="Kirk Hammet">
+
+	<delivery_addr da="cyprus">
+
+		<area_code>187</area_code>
+
+	</delivery_addr>
+
+	<contact_num>123456789</contact_num>
+
+	<purchase_order_num name="purchase" pun="5xx">
+
+		<items> 
+
+			<item in="4">
+				
+				<item_descr>Playstation 4</item_descr>
+
+				<quantity>10</quantity>
+			</item>
+			<item in="5">
+				<item_descr>Wii U</item_descr>
+
+				<quantity>12</quantity>
+			</item>
+
+
+		</items>
+
+	</purchase_order_num>
+  
+  	</cust_name>
+
+   </customer>
+
+</customer_info>
+
+</shop>
