@@ -1,0 +1,2149 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#"
+     xml:base="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#decides -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#decides">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Kilometers"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Period"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#has">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BUS"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Exam"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Insurance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Licence"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Military"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrailerBus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Body_and_MainParts"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Brand"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CylinderVolume"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Exam"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExtraAxle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Guns"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Inspection"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsurancePrice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Interior"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicencePrice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaintainanceType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaximumLoad"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Miscallaneous"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ModelYear"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Period"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Price"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeatCapacity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TaxesPrice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VehiclePrice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Weight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Wings"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#flightCharacteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#hasInsurance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#hasInsurance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Insurance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#hasMaintainance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#hasMaintainance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#hasTypes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#hasTypes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BUS"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hovercraht"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RailwayVehicle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VehiclePrice"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#includes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PlateNo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isCategoryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isCategoryOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Driving"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engines"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FirstAid"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Traffic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isModelOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isModelOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AntiTank"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Anti_Air"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Artillery"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Autogyros"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Baggage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ballast"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Balloons"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Boards"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Box"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BoxCar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Cab-forward"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CargoBeoner"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CargoSprinter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CoilCar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CombineCar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Commaand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Coupe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Cruse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dirghise"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dovel_Truck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#DualSport"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dumptruck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Enduro"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FireTruck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FlatCar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Flatbed"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#GarbageTruck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gliders"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hatchback"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HaulTruck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyHeuler"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Helicopter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Inland_and_Costel_Boats"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Keelboats"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LogCarrier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Luxury"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MiniTruck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MiniVan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotoCross"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Multihills"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#NavalVessels"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Panel-Van"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Platform"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rallyraid"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RefrigeratorTruck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Scooters"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sedan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Side-by-Side-ATV"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SportTouring"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Standard"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TankTruck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Touring"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrackRacing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TractorUnit"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Trail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Trails"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Van"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#mobileCrane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#pickup_Truck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#sportATV"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#sportBike"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ATV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PassengerUsage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rotorcraft"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ship"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Unpowered"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VeryHeavyTrucks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#smallTrucks"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isPartOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirConditioningSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AudioDevices"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Bearings"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BreakingSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CarSeat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Changing_System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Doors"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineComponents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineCoolingSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineOilSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExhaustSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FloorComponents_and_Parts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FuelSupplySystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gauses_and_Meters"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hover_Barge"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hover_Trains"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ignition_Electronic_system"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Non-Transportation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherComponents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sensors"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Suspension_andSteeringsystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Switches"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TransmissionSystem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Windows"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Wiring_Harnesses"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#starting_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Body_and_MainParts"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Interior"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Miscallaneous"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherUsage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isTypeOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ATV"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#A_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AmphibiousAircraft"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Articulated_Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BUS"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#B_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BodyMaintainance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#C_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Civil"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Commercial"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ComponentMaintainance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#D_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dolar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#E_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Euro"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Experimental"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#F_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FloatPlane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Former_ISAF_Classes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Full"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#H_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hovercraht"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#I_type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Jet"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Military"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Minubuses"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Model"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorCycle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Olympic_Classes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherUsage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PassengerUsage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Pound"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Powered"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rotorcraft"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SUV"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SailingBoat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeaPlane"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ship"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Single-Decker_Bus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SpeedBoat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sport"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Summer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TL"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrailerBus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tricycles"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Unpowered"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VeryHeavyTrucks"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Winter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Yacth"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#flyingBoat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#simple"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#smallTrucks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaintainanceType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorCycle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SailingBoat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeaPlane"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isWrittenOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isWrittenOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PlateNo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#isa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicMotor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeatEngine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Non-ThermalChemicalPoweredMotor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RailwayVehicle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineTypes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#movesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#movesWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#mustHas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#mustHas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Licence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#mustHave -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#mustHave">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#owner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#owner">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#owns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#owns">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#range -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#range">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsurancePrice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#range"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ATV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ATV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#A_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#A_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirConditioningSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirConditioningSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Miscallaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AmphibiousAircraft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AmphibiousAircraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeaPlane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AntiTank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AntiTank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Anti_Air -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Anti_Air">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Articulated_Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Articulated_Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Artillery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Artillery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AudioDevices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AudioDevices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Autogyros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Autogyros">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rotorcraft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BUS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BUS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#B_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#B_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Baggage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Baggage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PassengerUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ballast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ballast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VeryHeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Balloons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Balloons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Unpowered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Bearings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Bearings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Miscallaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Boards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Boards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BodyMaintainance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BodyMaintainance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaintainanceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Body_and_MainParts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Body_and_MainParts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Box -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Box">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BoxCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BoxCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Brand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BreakingSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BreakingSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BUS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#C_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#C_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Cab-forward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Cab-forward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CarSeat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CarSeat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Interior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CargoBeoner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CargoBeoner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CargoSprinter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CargoSprinter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Changing_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Changing_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Civil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Civil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CoilCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CoilCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CombineCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CombineCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Commaand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Commaand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Commercial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Commercial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ComponentMaintainance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ComponentMaintainance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaintainanceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Coupe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Coupe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Cruse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Cruse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CylinderVolume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#CylinderVolume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#D_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#D_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dirghise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dirghise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dolar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dolar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Doors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Doors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Body_and_MainParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dovel_Truck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dovel_Truck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Driving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Driving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#DualSport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#DualSport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dumptruck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Dumptruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#E_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#E_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicMotor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicMotor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Enduro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Enduro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineComponents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineComponents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineCoolingSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineCoolingSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineOilSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineOilSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Engines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Euro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Euro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Exam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Exam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Licence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Exam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExhaustSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExhaustSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Experimental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Experimental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExtraAxle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExtraAxle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrailerBus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#F_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#F_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FireTruck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FireTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FirstAid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FirstAid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FlatCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FlatCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Flatbed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Flatbed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FloatPlane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FloatPlane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeaPlane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FloorComponents_and_Parts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FloorComponents_and_Parts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Interior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Former_ISAF_Classes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Former_ISAF_Classes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SailingBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FreighUsage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FuelSupplySystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#FuelSupplySystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Full -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Full">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#GarbageTruck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#GarbageTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gauses_and_Meters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gauses_and_Meters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gliders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gliders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Unpowered"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Gun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Guns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Guns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Military"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#H_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#H_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hatchback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hatchback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HaulTruck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HaulTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VeryHeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeatEngine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeatEngine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyHeuler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyHeuler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VeryHeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Helicopter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Helicopter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rotorcraft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Miscallaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hover_Barge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hover_Barge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hover_Trains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hover_Trains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hovercraht"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hovercraht -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Hovercraht">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SailingBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#I_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#I_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ignition_Electronic_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ignition_Electronic_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Inland_and_Costel_Boats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Inland_and_Costel_Boats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Inspection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Inspection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsurancePrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsurancePrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Interior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Interior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Jet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Jet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Keelboats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Keelboats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Kilometers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Kilometers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Period"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Licence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Licence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicencePrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicencePrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Licence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LicenceType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Licence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LogCarrier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#LogCarrier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Luxury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Luxury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaintainanceType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaintainanceType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaximumLoad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MaximumLoad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Military -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Military">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUsage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MilitaryUse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MiniTruck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MiniTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#smallTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MiniVan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MiniVan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Minubuses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Minubuses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Miscallaneous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Miscallaneous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ModelYear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ModelYear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VehiclePrice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotoCross -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotoCross">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorCycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorCycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Multihills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Multihills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ISAF_Classes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#NavalVessels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#NavalVessels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Non-ThermalChemicalPoweredMotor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Non-ThermalChemicalPoweredMotor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#EngineTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Non-Transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Non-Transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorCycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Olympic_Classes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Olympic_Classes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SailingBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherComponents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherComponents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Interior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherUsage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#OtherUsage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Panel-Van -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Panel-Van">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PassengerUsage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PassengerUsage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Period -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Period">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Plate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Plate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PlateNo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PlateNo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Plate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Platform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Platform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Pound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Pound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Powered -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Powered">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Price">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Maintainance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RailwayVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RailwayVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rallyraid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rallyraid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RefrigeratorTruck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RefrigeratorTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rotorcraft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Rotorcraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SUV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SUV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SailingBoat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SailingBoat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Scooters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Scooters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeaPlane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeaPlane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeatCapacity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeatCapacity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BUS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sedan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sedan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Ship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Side-by-Side-ATV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Side-by-Side-ATV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ATV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Single-Decker_Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Single-Decker_Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SpeedBoat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SpeedBoat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Sport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HovercraftUsageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SportTouring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SportTouring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Standard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Standard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorCycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Summer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Summer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Suspension_andSteeringsystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Suspension_andSteeringsystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Switches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Switches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MoneyType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TankTruck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TankTruck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TaxesPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TaxesPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Taxes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Touring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Touring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrackRacing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrackRacing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TractorUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TractorUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Traffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Traffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ExamCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Trail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Trail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrailerBus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TrailerBus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#BusTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Trails -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Trails">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Off-Road"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TransmissionSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#TransmissionSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#PowerTrain_and_Chasis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tricycles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tricycles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorCycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RoadVehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Unpowered -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Unpowered">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Propulsion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#UsageTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#RailwayVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Van -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Van">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MediumTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VehiclePrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VehiclePrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VeryHeavyTrucks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#VeryHeavyTrucks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#MotorVehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Windows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Windows">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Body_and_MainParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Wings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Wings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Winter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Winter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Tyres"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Wiring_Harnesses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Wiring_Harnesses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Yacth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Yacth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#WaterVehicleTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#flightCharacteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#flightCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#AirCraft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#flyingBoat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#flyingBoat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#SeaPlane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#mobileCrane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#mobileCrane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#HeavyTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#pickup_Truck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#pickup_Truck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#lightTrucks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#range -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#range">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsurancePrice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#simple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#simple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#InsuranceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#smallTrucks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#smallTrucks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Truck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#sportATV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#sportATV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ATV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#sportBike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#sportBike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#Street"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#starting_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#starting_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cea/ontologies/2016/4/motorVehicle#ElectronicParts"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
